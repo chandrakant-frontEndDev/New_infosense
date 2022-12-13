@@ -1,0 +1,19 @@
+.trustedBy {
+    .marquee {
+        .trusted_wrapper {
+            display: flex;
+            justify-content: space-around;
+
+            .company_image {
+                width: 200px;
+                height: 60px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    filter: grayscale(1);
+                }
+            }
+        }
+    }
+}

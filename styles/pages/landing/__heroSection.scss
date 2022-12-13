@@ -1,0 +1,16 @@
+.heroSection{
+    .hero_wrapper{
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 4em;
+        }
+        p{
+            font-size: 1.2em;
+            text-align: center;
+        }
+    }
+}

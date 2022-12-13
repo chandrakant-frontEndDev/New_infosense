@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-inner-spin-button {
+    display: none
+}
+
+@import './common/_mobileMenu';
+@import './common/_mainHeader';
+@import './common/_footer';
+@import './pages/landing/_index';
+
+html,
+body {
+    height: 100%;
+}
+
+#__next {
+    height: inherit;
+}
+
+.main_wrapper {
+    min-height: 100%;
+    // margin: 0 auto -25px;
+}
