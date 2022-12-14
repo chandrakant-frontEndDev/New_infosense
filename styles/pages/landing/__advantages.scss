@@ -1,0 +1,16 @@
+.advantages {
+    padding: 4em 0em;
+
+    .head {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .advantage_box_wrapper {
+        margin: 1em 0em;
+        .content {
+            box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+            padding: 1em;
+        }
+    }
+}

@@ -55,7 +55,7 @@ export default function MainHeader() {
                                     <ul>
                                         <li>Modern Data Architecture</li>
                                         <li>Data Engineering Services</li>
-                                        <li><Link href={'/'}>Big Data Analytics</Link></li>
+                                        <li><Link href={'/services/big-data'}>Big Data Analytics</Link></li>
                                         <li>Data Warehouse</li>
                                         <li>BI & Data Visualizations</li>
                                     </ul>

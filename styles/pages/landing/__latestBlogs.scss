@@ -1,0 +1,36 @@
+.latestBlogs {
+    padding: 4em 0em;
+
+    .head {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .blog_wrapper {
+        .blog_content {
+            box-shadow: 0px 0px 2px #878787;
+            border-radius: 2px;
+            .blog_image {
+                
+                img{
+                    // height: 100%;
+                    max-height: 250px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .blog_short_description {
+                padding: 1em;
+
+                p {
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    overflow: hidden;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                }
+            }
+        }
+    }
+}

@@ -1,12 +1,15 @@
 .trustedBy {
-    .marquee {
+    // .marquee {
         .trusted_wrapper {
             display: flex;
             justify-content: space-around;
+            margin-top: 2em;
+            flex-wrap: wrap;
 
             .company_image {
                 width: 200px;
                 height: 60px;
+                margin: 1em;
 
                 img {
                     width: 100%;
@@ -15,5 +18,5 @@
                 }
             }
         }
-    }
+    // }
 }

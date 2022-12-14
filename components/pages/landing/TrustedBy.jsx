@@ -7,10 +7,9 @@ export default function TrustedBy() {
                 <Container>
                     <Row>
                         <Col lg={12}>
-                            <h2>Trusted By</h2>
+                            <h4 className='text-center'>Trusted by Innovative Companies</h4>
                         </Col>
                         <Col lg={12}>
-                            <marquee className="marquee" width="100%" direction="left" height="100px" loop scrollamount="12">
                                 <div className="trusted_wrapper">
                                     <div className="company_image">
                                         <Image src={'https://www.monalabs.io/hubfs/mona%20logo.svg'} fluid />
@@ -27,8 +26,19 @@ export default function TrustedBy() {
                                     <div className="company_image">
                                         <Image src={'https://www.monalabs.io/hubfs/mona%20logo.svg'} fluid />
                                     </div>
+                                    <div className="company_image">
+                                        <Image src={'https://www.monalabs.io/hubfs/mona%20logo.svg'} fluid />
+                                    </div>
+                                    <div className="company_image">
+                                        <Image src={'https://www.monalabs.io/hubfs/mona%20logo.svg'} fluid />
+                                    </div>
+                                    <div className="company_image">
+                                        <Image src={'https://www.monalabs.io/hubfs/mona%20logo.svg'} fluid />
+                                    </div>
+                                    <div className="company_image">
+                                        <Image src={'https://www.monalabs.io/hubfs/mona%20logo.svg'} fluid />
+                                    </div>
                                 </div>
-                            </marquee>
                         </Col>
                     </Row>
                 </Container>

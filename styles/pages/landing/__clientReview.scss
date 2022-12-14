@@ -1,0 +1,25 @@
+.clientReview {
+    padding: 4em 0em;
+
+    .head{
+        margin-bottom: 2em;
+    }
+
+    .slider_div{
+        .custom_wrapper{
+            border: 1px solid;
+            margin: 0% 25%;
+            max-width: 50%;
+            padding: 1em;
+        }
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: #000;
+    }
+
+    .slick-dots{
+        bottom: -50px;
+    }
+}
