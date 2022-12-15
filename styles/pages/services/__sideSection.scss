@@ -1,0 +1,33 @@
+.side_content {
+    .content_wrapper {
+        .content {
+            .inner_content_point {
+                display: flex;
+                align-items: center;
+                margin: 2em 0em;
+                box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+                padding: 1em;
+
+                .points_no {
+                    width: 200px;
+                    font-size: 4em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    -webkit-text-stroke: thin;
+                    color: #fff;
+                    -webkit-text-stroke-color: #000;
+                    font-weight: bold;
+                }
+
+                .points_description {}
+            }
+        }
+    }
+
+    .image {
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+}

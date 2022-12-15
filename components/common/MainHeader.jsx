@@ -31,14 +31,20 @@ export default function MainHeader() {
                 <section className='link_content'>
                     <div className="left_part">
                         <div className="brand_logo">
-                            <Image src={Logo.src} fluid />
+                            <Link href={'/'}>
+                                <Image src={Logo.src} fluid />
+                            </Link>
                         </div>
                         <ul className='main_links'>
                             <li className='dropBtn' navlinkname="services" onClick={DropdownToggle}>Services <MdKeyboardArrowDown /></li>
                             <li className='dropBtn' navlinkname="industries" onClick={DropdownToggle}>Industries <MdKeyboardArrowDown /></li>
-                            <li>Use Cases</li>
+                            <li> <Link href={'/use_cases'}>Use Cases</Link> </li>
                             <li className='dropBtn' navlinkname="success_stories" onClick={DropdownToggle}>Success Stories <MdKeyboardArrowDown /></li>
-                            <li>About</li>
+                            <li>
+                                <Link href={'/about'}>
+                                    About
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     {/* <div className="right_part"></div> */}
@@ -105,17 +111,35 @@ export default function MainHeader() {
                         <Row className='justify-content-center'>
                             <Col lg={3}>
                                 <div className='drop_list_col'>
-                                    <h6>xxxxxxxxxxx</h6>
+                                    {/* <h6>xxxxxxxxxxx</h6> */}
                                     <ul>
-                                        <li>Modern Data Architecture</li>
-                                        <li>Data Engineering Services</li>
-                                        <li><Link href={'/'}>Big Data Analytics</Link></li>
-                                        <li>Data Warehouse</li>
-                                        <li>BI & Data Visualizations</li>
+                                        <li>Healthcare & Pharma</li>
+                                        <li>Sport & Wellness</li>
+                                        <li><Link href={'/industry/e-commerce'}>E-commerce</Link></li>
                                     </ul>
                                 </div>
                             </Col>
                             <Col lg={3}>
+                                <div className='drop_list_col'>
+                                    {/* <h6>Big Data Development Services</h6> */}
+                                    <ul>
+                                        <li>Modern Data Architecture</li>
+                                        <li>Data Engineering Services</li>
+                                        <li>Big Data Analytics</li>
+                                    </ul>
+                                </div>
+                            </Col>
+                            <Col lg={3}>
+                                <div className='drop_list_col'>
+                                    {/* <h6>Big Data Development Services</h6> */}
+                                    <ul>
+                                        <li>Modern Data Architecture</li>
+                                        <li>Data Engineering Services</li>
+                                        <li>Big Data Analytics</li>
+                                    </ul>
+                                </div>
+                            </Col>
+                            {/* <Col lg={3}>
                                 <div className='drop_list_col'>
                                     <h6>Big Data Development Services</h6>
                                     <ul>
@@ -126,31 +150,7 @@ export default function MainHeader() {
                                         <li>BI & Data Visualizations</li>
                                     </ul>
                                 </div>
-                            </Col>
-                            <Col lg={3}>
-                                <div className='drop_list_col'>
-                                    <h6>Big Data Development Services</h6>
-                                    <ul>
-                                        <li>Modern Data Architecture</li>
-                                        <li>Data Engineering Services</li>
-                                        <li>Big Data Analytics</li>
-                                        <li>Data Warehouse</li>
-                                        <li>BI & Data Visualizations</li>
-                                    </ul>
-                                </div>
-                            </Col>
-                            <Col lg={3}>
-                                <div className='drop_list_col'>
-                                    <h6>Big Data Development Services</h6>
-                                    <ul>
-                                        <li>Modern Data Architecture</li>
-                                        <li>Data Engineering Services</li>
-                                        <li>Big Data Analytics</li>
-                                        <li>Data Warehouse</li>
-                                        <li>BI & Data Visualizations</li>
-                                    </ul>
-                                </div>
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Container>
                 </section>
@@ -159,37 +159,30 @@ export default function MainHeader() {
                         <Row className='justify-content-center'>
                             <Col lg={3}>
                                 <div className='drop_list_col'>
-                                    <h6>DEMO</h6>
+                                    {/* <h6>DEMO</h6> */}
                                     <ul>
                                         <li>Modern Data Architecture</li>
                                         <li>Data Engineering Services</li>
-                                        <li><Link href={'/'}>Big Data Analytics</Link></li>
-                                        <li>Data Warehouse</li>
-                                        <li>BI & Data Visualizations</li>
+                                        <li><Link href={'/success_stories'}>Big Data Analytics</Link></li>
                                     </ul>
                                 </div>
                             </Col>
                             <Col lg={3}>
                                 <div className='drop_list_col'>
-                                    <h6>Big Data Development Services</h6>
+                                    {/* <h6>Big Data Development Services</h6> */}
                                     <ul>
                                         <li>Modern Data Architecture</li>
                                         <li>Data Engineering Services</li>
                                         <li>Big Data Analytics</li>
-                                        <li>Data Warehouse</li>
-                                        <li>BI & Data Visualizations</li>
                                     </ul>
                                 </div>
                             </Col>
                             <Col lg={3}>
                                 <div className='drop_list_col'>
-                                    <h6>Big Data Development Services</h6>
+                                    {/* <h6>Big Data Development Services</h6> */}
                                     <ul>
                                         <li>Modern Data Architecture</li>
                                         <li>Data Engineering Services</li>
-                                        <li>Big Data Analytics</li>
-                                        <li>Data Warehouse</li>
-                                        <li>BI & Data Visualizations</li>
                                     </ul>
                                 </div>
                             </Col>

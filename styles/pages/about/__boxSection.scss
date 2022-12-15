@@ -1,0 +1,13 @@
+.boxSection{
+    .head{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .content_wrapper{
+        .content{
+            padding: 1em;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            border-radius: 5px;
+        }
+    }
+}

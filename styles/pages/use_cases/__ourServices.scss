@@ -1,0 +1,30 @@
+.our_services{
+    .head{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .content_wrapper{
+        .content_div{
+            display: flex;
+            box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+            border-radius: 5px;
+            padding: 1em;
+
+            .point{
+                width: 200px;
+                font-size: 4em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                -webkit-text-stroke: thin;
+                color: #fff;
+                -webkit-text-stroke-color: #000;
+                font-weight: bold;
+            }
+            .description{
+
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.banner_section{
+    .mainSection{
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .content_area{
+            text-align: center;
+
+            h1{
+                font-size: 4em;
+            }
+            p{
+                font-size: 1.2em;
+            }
+        }
+    }
+}

@@ -23,8 +23,8 @@ export default function Industries() {
                             <div className='slider_div'>
                                 <div>
                                     <Slider {...settings}>
-                                        {Array(6).fill('').map(() => {
-                                            return <div>
+                                        {Array(6).fill('').map((e, key) => {
+                                            return <div key={key}>
                                                 <div className="wrapper_box">
                                                     <div className='content_area'>
                                                         <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, distinctio.</h4>

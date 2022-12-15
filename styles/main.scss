@@ -18,6 +18,17 @@ a {
 @import './common/_contactUs';
 @import './pages/landing/_index';
 @import './pages/services/_main';
+@import './pages/blog/_allBlog';
+@import './pages/blog/_blogDetails';
+@import './pages/about/_main';
+@import './_privacyPolicy';
+@import './_terms_of_use';
+@import './pages/industry/_main';
+@import './_cookie_policy';
+@import './_contactUs';
+@import './pages/success_stories/_allStories';
+@import './pages/success_stories/_storyDetails';
+@import './pages/use_cases/_main';
 
 html,
 body {

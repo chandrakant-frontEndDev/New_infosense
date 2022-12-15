@@ -1,7 +1,8 @@
 import ContactUs from "../components/common/ContactUs";
 import Advantages from "../components/pages/landing/Advantages";
 import BoxSection from "../components/pages/landing/BoxSection";
-import ClientReview from "../components/pages/landing/ClientReview";
+// import ClientReview from "../components/pages/landing/ClientReview";
+import ClientReview from "../components/common/ClientReview";
 import HeroSection from "../components/pages/landing/HeroSection";
 import KeyTabs from "../components/pages/landing/KeyTabs";
 import LatestBlogs from "../components/common/LatestBlogs";
