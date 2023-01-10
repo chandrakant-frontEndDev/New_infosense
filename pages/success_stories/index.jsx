@@ -4,7 +4,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap'
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack'
 
-export default function index() {
+export default function Index() {
     const [Blogs, setBlogs] = useState([])
     const array = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"]
     function pageFunc(e, value) {
